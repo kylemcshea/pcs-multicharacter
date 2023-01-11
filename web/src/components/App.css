@@ -6,21 +6,33 @@
   align-items: center;
 }
 
-pre {
-  counter-reset:line-numbering;
-  background:#2c3e50;
-  padding:12px 0px 14px 0;
-  color:#ecf0f1;
-  line-height:140%;
+.bg-menu {
+  background-color: #232228;
 }
 
-.popup-thing {
-  background: #282c34;
+.red-dead-orange {
+  color: #c74e2e;
+}
+
+.red-dead-yellow {
+  color: #e6aa3c;
+}
+
+.red-dead-green {
+  color: #9f9e7d;
+}
+
+.red-dead-blue {
+  color: #2c3f7d;
+}
+
+.red-dead-purple {
+  color: #55376b;
+}
+
+.character-bg {
+  cursor: pointer;
+  background-color: #26252b;
   border-radius: 10px;
-  width: 500px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  border: 1px solid rgb(53, 53, 53);
 }
